@@ -1,0 +1,61 @@
+*,
+ html,
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 1px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(55, 57, 55);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstname{
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.lastname{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 4px;
+   
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none ;
+    padding: 15px;
+}
+
+.navigation>li>a{
+    color: #ac4242;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.active{
+    background-color: #f4a82d;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
